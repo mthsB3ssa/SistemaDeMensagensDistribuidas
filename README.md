@@ -7,6 +7,7 @@ Antes de iniciar, você precisará ter o RabbitMQ instalado em seu sistema. Para
 
 ```bash
 sudo apt install rabbitmq-server
+```
 
 Feita a instalação, abra 2 terminais diferentes, um com o diretorio "consumer" e outro com o diretorio "producer"
 No terminal, rode o consumer: - go run receive.go 
