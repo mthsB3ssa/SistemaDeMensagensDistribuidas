@@ -1,7 +1,13 @@
-# SistemaDeMensagensDistribuidas
+# Sistema de Mensagens Distribuídas
 
-Para fazer o uso, abra o terminal e digite o comando: 
-- sudo apt install rabbitmq-server
+Este projeto implementa um sistema básico de mensagens distribuídas utilizando RabbitMQ e Golang. A estrutura divide os componentes em produtores e consumidores
+## Pré-requisitos
+
+Antes de iniciar, você precisará ter o RabbitMQ instalado em seu sistema. Para instalá-lo no Ubuntu, execute o seguinte comando no terminal:
+
+```bash
+sudo apt install rabbitmq-server
+
 Feita a instalação, abra 2 terminais diferentes, um com o diretorio "consumer" e outro com o diretorio "producer"
 No terminal, rode o consumer: - go run receive.go 
 e então, rode o producer: - go run send.go
