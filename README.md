@@ -10,20 +10,16 @@ sudo apt install rabbitmq-server
 ```
 
 Feita a instalação, abra 2 terminais diferentes, um com o diretorio `consumer` e outro com o diretorio `producer`
-No terminal, rode o consumer:
+Em um dos terminais, rode o consumer:
 ```bash
 go run receive.go`
 ```
-e então, rode o producer: 
+e em outro, rode o producer: 
 ```bash
 go run send.go
 ```
 
 Você pode abrir vários terminais e rodar vários "producers"
-
-
-## Futuras implementações
-
 
 ## Referências
 [Tutorial RabbitMQ com Go](https://www.rabbitmq.com/tutorials/tutorial-one-go)
