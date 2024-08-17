@@ -1,9 +1,10 @@
 # SistemaDeMensagensDistribuidas
 
-Para fazer o uso, no Linux, abra o terminal e digite o comando: sudo apt install rabbitmq-server
+Para fazer o uso, abra o terminal e digite o comando: 
+- sudo apt install rabbitmq-server
 Feita a instalação, abra 2 terminais diferentes, um com o diretorio "consumer" e outro com o diretorio "producer"
-No terminal, rode o consumer: go run receive.go 
-e então, rode o producer: go run send.go
+No terminal, rode o consumer: - go run receive.go 
+e então, rode o producer: - go run send.go
 
 Você pode abrir vários terminais e rodar vários "producers"
 
