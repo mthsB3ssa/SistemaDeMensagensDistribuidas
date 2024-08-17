@@ -1,6 +1,15 @@
 # SistemaDeMensagensDistribuidas
 
-Inicialmente o sistema contará com 3 diretórios:
-- cmd: para os executáveis do sistema
-- pkg: para as bibliotecas reutilizáveis
-- internal: código específico que não deve ser reutilizado externamente
+Para fazer o uso, no Linux, abra o terminal e digite o comando: sudo apt install rabbitmq-server
+Feita a instalação, abra 2 terminais diferentes, um com o diretorio "consumer" e outro com o diretorio "producer"
+No terminal, rode o consumer: go run receive.go 
+e então, rode o producer: go run send.go
+
+Você pode abrir vários terminais e rodar vários "producers"
+
+
+## Futuras implementações
+
+
+## Referências
+https://www.rabbitmq.com/tutorials/tutorial-one-go
