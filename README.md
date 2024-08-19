@@ -12,7 +12,7 @@ sudo apt install rabbitmq-server
 Feita a instalação, abra 2 terminais diferentes, um com o diretorio `consumer` e outro com o diretorio `producer`
 Em um dos terminais, rode o consumer:
 ```bash
-go run receive.go`
+go run receive.go
 ```
 e em outro, rode o producer: 
 ```bash
